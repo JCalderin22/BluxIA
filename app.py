@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 load_dotenv()
 
 DB_PATH = "bluxia.db"
-CODIGO_SECRETO_PROFESOR = "corazon2024"
+CODIGO_SECRETO_PROFESOR = "admin"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
